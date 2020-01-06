@@ -1,0 +1,66 @@
+body, p, div, ul, ol, li, span, strong, h1, h2,h3, img, html{
+    margin:0; padding:0;
+}
+
+.images{
+    width: 12rem;
+}
+
+img{
+    width: 3rem;
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.player{
+    background: #d7d7d7d7;
+    height: 21rem;
+    width: 21rem;
+    flex-basis: (40% - 10px);
+    padding: 10px;
+    border-radius: 1rem;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 7rem;
+}
+
+header{
+    background: #ebd300d7;
+    color: black;
+    height: 6rem;
+    text-align: center;
+}
+
+main{
+    height: 100%;
+}
+
+footer{
+    background: black;
+    color: white;
+    height: 1.8rem;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 0px;
+    margin-top: 5rem;
+}
+
+.btn{
+    background: orange;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+}
+
+#console{
+    background: black;
+    color: white;
+    width: 40rem;
+    height: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+}
